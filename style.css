@@ -1,0 +1,31 @@
+
+.tag{
+    height: 300px;
+    width: 300px;
+}
+.intro{
+    padding-top: 100px;
+    vertical-align: middle;
+}
+p{
+    font-size: large;
+    text-align: justify;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 50%;
+    z-index: -5;
+  }
+  .content {
+    position: fixed;
+    opacity: 50;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: 20;
+  }

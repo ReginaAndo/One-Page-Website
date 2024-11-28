@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-info">
+        <div class="container-fluid">
+          <a class="nav-link  text-light" href="#about">About</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="#studies">Studies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#github">GitHub</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div>
+        <div class="jumbotron jumbotron-fluid bg-info text-center pb-4 bg-opacity-25">
+            <video autoplay muted loop id="myVideo">
+                <source src="./img/main.mp4" type="video/mp4">
+              </video>
+            <div class="container-fluid " id="content">
+                <h1 class="display-4 text-light">Welcome to my portfolio website!</h1>
+                <p class="lead text-light" > I am a dedicated and passionate web development student eager to showcase my skills and projects. Here, you will find a collection of my work, including websites I have designed and developed, as well as my journey in learning various programming languages and technologies. Explore my portfolio to see how I can bring creativity and functionality to your web projects.</p>
+            </div>
+        </div>
+      </div> 
+      <!--About section-->
+        <div class="container text-center pt-4" id="about">
+            <div class="row align-items-start">
+              <div class="col" >
+                <img id="tag" class="img-fuid"  src="./img/about.png" alt="htmltag">
+              </div>
+              <div class="col bg-info  bg-opacity-25" class="p-5 bg-success" id="intro"><br><br><br><br>
+                <h2 >Intruduction</h2><br><br>
+                <p >As a web development student, I thrive on challenges and am eager to explore new technologies to enhance website development. Currently enrolled at the Academy of Learning, I am deeply passionate and curious about all aspects of web development. My studies have already covered HTML, JavaScript, and Bootstrap, and I am excited to continue learning and growing in this field. Please take a moment to explore my portfolio below. Additionally, you can check out my Github profile, where I regularly share new projects.</p>
+                <br><br><br><br>
+            </div>
+              
+            </div>
+      </div>
+      <div class="container text-center pt-4" id="about">
+        <div class="row align-items-start">
+          
+          <div class="col bg-info  bg-opacity-25" id="intro"><br><br><br><br>
+            <h2 >Next level goals</h2><br><br>
+            <p >I'm thrilled to further my learning and expand my development skills. I'm eager to delve into databases and other programming languages to create more intricate webpages with advanced functions. My aim is to join a web development team and craft commercial websites for large companies, incorporating databases. I'm keen on designing and developing secure, well-organized databases. Additionally, I'm interested in C# and .Net, as creating computer applications to simplify users' lives is incredibly rewarding.</p>
+            <br><br><br><br>
+        </div>
+          <div class="col" >
+            <img id="tag" class="img-fuid"  src="./img/img4.png" alt="htmltag">
+          </div>
+        </div>
+  </div>
+  
+      <!--Showtimes-->
+      <div class="container pt-4" id="github">
+        <h2 >Projects:</h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card h-100">
+                    <img src="./img/img1.jpg" class="card-img-top h-60" style="object-fit:cover" alt="matrixbackground">
+                    <div class="card-body">
+                      <a href="https://github.com/ReginaAndo/HTML-and-CSS" target="_blank">
+                        <h6 class="card-title" >HTML and CSS </h6>
+                      </a>
+                      <p class="card-text">As a student web developer, I've recently begun my journey into the world of HTML. It's fascinating to explore how webpages are constructed and to discover the various technologies available to ensure a website is responsive.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card h-100">
+                    <img src="./img/img2.jpg" class="card-img-top h-60" style="object-fit:cover" alt="colorfultextile">
+                    <div class="card-body">
+                        <a href="https://github.com/ReginaAndo/JavaScript-Projects"><h6 class="card-title">JavaScript</h6></a>
+                      <p class="card-text">Simple Js projects using JavaScript. Visit my GitHub page.</p>
+                    
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card h-100">
+                    <img src="./img/img3.jpg" class="card-img-top h-60" style="object-fit:cover" alt="A cartoon caracter, girl is coding on a PC">
+                    <div class="card-body">
+                        <a href="https://github.com/ReginaAndo/HTML-and-CSS"><h6 class="card-title">HTML and CSS</h6></a>
+                      <p class="card-text">Cascading Style Sheets (CSS) add color and style to websites. This is what I've discovered as I've learned about CSS, and it's absolutely true. For a look at my projects, please visit my GitHub page.</p>
+                    
+                    </div>
+                  </div>
+            </div>
+            <!--JS project -->
+            <div class="col-sm-4">
+              <div class="card h-100">
+                  <img src="./img/img3.jpg" class="card-img-top h-60" style="object-fit:cover" alt="A cartoon caracter, girl is coding on a PC">
+                  <div class="card-body">
+                      <a href="pizza.html"><h6 class="card-title">JS website</h6></a>
+                    <p class="card-text">This is a simple JavaScript website that includes basic math operations and addition. JavaScript provides the capability to create dynamic webpages.</p>
+                  
+                  </div>
+                </div>
+          </div>
+          
+        </div>
+      </div>
+
+     
+      <!--Form-->
+      <div class="container pt-4 ">
+        <div class="container text-center"><h1> Sign up</h1></div>
+        <form >
+            <div class="mb-3">
+               <div class="mb-3">
+                    <label for="Name" class="form-label">Name:</label>
+                    <input type="text" class="form-control">
+               </div>
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+      
+      <!--footer-->
+      <div class="container my-5 text-center" id="contact">
+            <ul class="nav">
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">Movie award</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">Movies@news.com</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">info@academy.ca</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">&copy;2024 Academy Cinemas</a></small>
+                </li>
+            </ul>
+      </div>
+</body>
+</html>
